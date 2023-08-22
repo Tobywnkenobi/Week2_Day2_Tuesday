@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    height: 800px;
+    display: flex;
+    align-items: baseline; /* This is where the magic happens */
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+    
+}
+
+.card{
+    max-width: 200px;
+    border: 2px solid hotpink;
+    padding: 20px;
+}
