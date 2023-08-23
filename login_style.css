@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.per_info{
+    /* height: 400px;
+    margin-left: 60%;
+    width: 300px; */
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+}
+
+.info_choices {
+    align-self:center;
+    
+  }
+
+.side_steps{
+    /* width: 300px;
+    margin-top: -400px;
+    margin-left: 400px; */
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+  .step_num {
+    align-self: center;
+}
+.title_info {
+  background-color: aqua;
+  /* width: 700px;
+  height: 30%; */
+  display: flex;
+  justify-content: center;
+}
