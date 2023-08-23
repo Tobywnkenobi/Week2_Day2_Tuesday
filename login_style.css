@@ -1,35 +1,34 @@
 body{
   display: flex;
-  align-content: flex-start;
-  flex-direction: column;
+  flex-direction: row;
 }
 .per_info{
-    /* height: 400px;
-    margin-left: 60%;
-    width: 300px; */
     background-color: blueviolet;
     display: flex;
-    flex-direction: column;
-    justify-content:right;
+    flex-direction:column;
+    justify-content:flex-start;
 }
 
 .info_choices {
-    align-self:center;
-    
+    justify-content: flex-start;
+    align-self: center;
   }
 
 .side_steps{
-    /* width: 300px;
-    margin-top: -400px;
-    margin-left: 400px; */
-    background-color: blue;
+  background-color: blue;
+    background-image: url("graphic.png");
+    border-image:fill;
+    width: 300px;
+    height: 900px;
+    margin-top: 30px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     
 }
 
-  .step_num {
+.step_num {
     align-self: center;
 }
 .title_info {
@@ -38,4 +37,10 @@ body{
   height: 30%; */
   display: flex;
   justify-content: center;
+}
+
+.text{
+  justify-content: center;
+  border-image-width: fill;
+ height: fill;
 }
